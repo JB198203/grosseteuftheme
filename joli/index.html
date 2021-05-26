@@ -1,15 +1,652 @@
-<!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link type="text/css" rel="stylesheet" href="style.css">
 
-<html>
-  <head>
-    <title>Page Title</title>
-  </head>
-  <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-    <p>This is a <button>bouton</button></p>
-    <p>this is a card</p>
-    <p>this is a signin_form</p>
-  </body>
-</html>
+
+
+
+
+<div class="col-md-12">
+  <h1>1 Navbar</h1>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-static-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Accueil</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        aria-haspopup="true"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >Profil
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">GO GROSSETEUF</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="btn btn-primary nav-item dropdown" data-children-count="1">
+            <a
+              class="nav-link active dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Connexion</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item text-white" href="#">Login</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item text-white" href="#">Sign up</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<br>
+<br>
+
+
+<div class="col-md-12">
+  <h1>2 Footer</h1>
+  <footer class="bg-primary text-center text-white">
+  
+    <br />
+
+    <div class="container p-4">
+    
+      
+
+      <br />
+      <br />
+
+    
+      <section class="container-fluid">
+     
+        <div class="row">
+         
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Mes GROSSETEUFS</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Fake newz</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">FAQ</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5 class="text-uppercase">ACTIVITES</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Programmer une GROSSETEUF</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Participer à une GROSSETEUF</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">DROITS D ENTREE</a>
+              </li>
+            </ul>
+          </div>
+
+        
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5 class="text-uppercase">NOUS JOINDRE</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Team GOLD</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white"
+                  >I don t know what i m doing here</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5 class="text-uppercase">HOTSPOTS</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">CITYFINDER</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">BONUS</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">HELP</a>
+              </li>
+            </ul>
+          
+        </div>
+
+      </section>
+
+    </div>
+
+
+
+    <div class="text-center p-3 bg-secondary">
+      <a class="text-white" href="">GROSSETEUF.COM</a>
+    </div>
+
+  </footer>
+
+</div>
+<br>
+<br>
+<div class="col-md-12">
+  <h1>3 FORMULAIRES</h1>
+
+<div class= "row justify-content-center">
+<div class=" card bg-primary mb-3 text-white" style="max-width: 40rem;">
+  <div class="card-header text-center text-uppercase">SIGN IN</div>
+  <div class="card-body card-body-2 row justify-content-center" >
+    <div class="text-center w-50" data-children-count="1">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">rentres ton adresse.</small>
+      <br>
+      <div class="text-center" data-children-count="1">
+      <label for="exampleInputPassword1" class="form-label">Indiquez le mot de passe</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Entrer le mot de passe">
+      <br>
+      <fieldset class="form-group">
+      
+        
+        <div class="form-group has-success" data-children-count="1">
+          <label class="form-label mt-4" for="inputValid">Valid input</label>
+          <input type="text" value="correct value" class="form-control is-valid" id="inputValid">
+          <div class="valid-feedback">bravo tu t en souviens</div>
+        </div>
+        
+        <div class="form-group has-danger" data-children-count="1">
+          <label class="form-label mt-4" for="inputInvalid">Invalid input</label>
+          <input type="text" value="wrong value" class="form-control is-invalid" id="inputInvalid">
+          <div class="invalid-feedback">Dommage tu t es trompé</div>
+        </div>
+      </fieldset>
+        <br>
+
+     
+      <br>
+        <div class="text-center">
+        <button type="submit " class="btn btn-secondary text-center">VALIDEZ</button>
+        </div>
+      </div>
+      
+    </div>
+    </form>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<br>
+<br>
+<div class= "row justify-content-center">
+  <div class=" card bg-primary mb-3 text-white" style="max-width: 40rem;">
+    <div class="card-header text-center text-uppercase">Sign up</div>
+    <div class="card-body card-body-2 row justify-content-center" >
+      <div class="text-center w-50" data-children-count="1">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Renseignez l'adresse liée à votre compte.</small>
+        <br>
+        <div class="text-center" data-children-count="1">
+        <label for="exampleInputPassword1" class="form-label">Indiquez le mot de passe</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Entrer le mot de passe">
+        <br>
+        <fieldset class="form-group">
+        
+
+        <br>
+        <br>
+          <div class="text-center">
+          <button type="submit " class="btn btn-secondary text-center">Submit</button>
+          </div>
+        </div>
+        
+    
+      </form>
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="col-md-12">
+    <h1>4 Banniere </h1>
+    
+    <div class="jumbotron container-fluid text-white ">
+      <h1 class="display-3 ">GO GO GROSSETEUF</h1>
+        <p><a class="btn btn-secondary btn-lg justify-content-center" href="#"" role="button">Créer une GROSSETEUF</a></p>
+        <br>
+    </div>
+  </div>
+  
+  <div class="col-md-12">
+    <h1>Banniere bis</h1>
+    <div class="jumbotron_2 container-fluid text-white">
+        <br>
+          <h1 class="display-3 text-center">GROSSETEUF</h1>
+        <br>
+    </div>
+  </div>
+  <div class="col-md-12">
+
+    <br>
+    <br>
+    <h1>5 Carte event</h1>
+  
+    <div class="row justify-content-center">
+      <div class="card border-light card-body-1 mb-4" style="max-width: 15rem">
+        <div class="card-header">#Paris</div>
+        <img class="card-img" src="asset/ alt="Card image">
+  
+        <div class="card-body bs-primary">
+          <h4 class="card-title">GROSSETEUF 1</h4>
+          <p class="card-text">Description</p>
+          <button class="btn btn-secondary justify-content-center text-downcase">
+            participer
+          </button>
+          <p class="card-footer">21/01/1789 12:66</p>
+        </div>
+      </div>
+      <div class="card border-light card-body-1 mb-4" style="max-width: 15rem">
+        <div class="card-header">#Moscou</div>
+        <img class="card-img" src="asset/grosseteuf.jpg" alt="Card image" />
+  
+        <div class="card-body bs-primary">
+          <h4 class="card-title">GROSSETEUF 1</h4>
+          <p class="card-text">Description</p>
+          <button class="btn btn-secondary justify-content-center text-downcase">
+            participer
+          </button>
+          <p class="card-footer">21/01/1789 12:66</p>
+        </div>
+      </div>
+      <div class="card border-light card-body-1 mb-4" style="max-width: 15rem">
+        <div class="card-header">#Paris</div>
+        <img class="card-img" src="asset/grosseteuf.jpg" alt="Card image" />
+  
+        <div class="card-body bs-primary">
+          <h4 class="card-title">GROSSETEUF 1</h4>
+          <p class="card-text">Description</p>
+          <button class="btn btn-secondary justify-content-center text-downcase">
+            participer
+          </button>
+          <p class="card-footer">21/01/1789 12:66</p>
+        </div>
+      </div>
+      <div class="card border-light card-body-1 mb-4" style="max-width: 15rem">
+        <div class="card-header">#Paris</div>
+        <img class="card-img" src="asset/grosseteuf.jpg" alt="Card image" />
+  
+        <div class="card-body bs-primary">
+          <h4 class="card-title">GROSSETEUF 1</h4>
+          <p class="card-text">Description</p>
+          <button class="btn btn-secondary justify-content-center text-downcase">
+            participer
+          </button>
+          <p class="card-footer">21/01/1789 12:66</p>
+        </div>
+      </div>
+    </div>
+  
+    <br />
+    <br />
+    <div class="col-md-12">
+      <h1>Carte participants</h1>
+  
+      <div class="col-sm-4">
+        <div class="my-3 bg-white rounded box-shadow">
+          <h6 class="border-bottom border-gray mb-0">Participations récentes</h6>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media text-muted">
+          <img
+            alt="32x32"
+            class="mr-2 rounded"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_179a3cd1146%20text%20%7B%20fill%3A%236f42c1%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A2pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_179a3cd1146%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%236f42c1%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2212.2890625%22%20y%3D%2216.9%22%3E32x32%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+            data-holder-rendered="true"
+            ;
+            style="color: black; width: 32px; height: 32px"
+            ;
+          />
+          <p class="media-body mb-0 small lh-125 border-bottom border-gray">
+            <a class="d-block bs-primary">@username</a> -12/05/2021
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media text-muted">
+          <img
+            alt="32x32"
+            class="mr-2 rounded"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_179a3cd1146%20text%20%7B%20fill%3A%236f42c1%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A2pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_179a3cd1146%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%236f42c1%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2212.2890625%22%20y%3D%2216.9%22%3E32x32%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+            data-holder-rendered="true"
+            style="color: black; width: 32px; height: 32px"
+          />
+          <p class="media-body mb-0 small lh-125 border-bottom border-gray">
+            <a class="d-block bs-primary">@username</a> -12/05/2021
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media text-muted">
+          <img
+            alt="32x32"
+            class="mr-2 rounded"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_179a3cd1146%20text%20%7B%20fill%3A%236f42c1%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A2pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_179a3cd1146%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%236f42c1%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2212.2890625%22%20y%3D%2216.9%22%3E32x32%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+            data-holder-rendered="true"
+            style="color: black; width: 32px; height: 32px"
+          />
+          <p class="media-body mb-0 small lh-125 border-bottom border-gray">
+            <a class="d-block bs-primary">@username</a> -12/05/2021
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <small class="d-block text-right mt-3">
+          <a href="#">All participants</a>
+        </small>
+      </div>
+    </div>
+  
+    <br />
+    <div class="col-md-12">
+      <h1>Carte villes</h1>
+      <br />
+      <div class="row justify-content-center">
+        <div
+          class="card card-body-2 bg-light text-white"
+          style="max-width: 17rem"
+        >
+          <img class="card-img" src="asset/grosseteuf.jpg" alt="Card image" />
+          <div class="card-img-overlay">
+            <h5 class="card-title bg-secondary text-center mt-5">Paris</h5>
+          </div>
+        </div>
+        <div
+          class="card card-body-2 bg-light text-white"
+          style="max-width: 17rem"
+        >
+          <img class="card-img" src="asset/grosseteuf.jpg" alt="Card image" />
+          <div class="card-img-overlay">
+            <h5 class="card-title bg-secondary text-center mt-5">Paris</h5>
+          </div>
+        </div>
+        <div
+          class="card card-body-2 bg-light text-white"
+          style="max-width: 17rem"
+        >
+          <img class="card-img" src="asset/grosseteuf.jpg" alt="Card image" />
+          <div class="card-img-overlay">
+            <h5 class="card-title bg-secondary text-center mt-5">Paris</h5>
+          </div>
+        </div>
+        <div
+          class="card card-body-2 bg-light text-white"
+          style="max-width: 17rem"
+        >
+          <img class="card-img" src="asset/grosseteuf.jpg" alt="Card image" />
+          <div class="card-img-overlay">
+            <h5 class="card-title bg-secondary text-center mt-5">Paris</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <br />
+  </div>
+  <br>
+  <br>
+
+  <hr/>
+  <div class="col-md-12">
+    <h1>6 Commentaires</h1>
+    <br>
+  <div class="container mt-5">
+    <div class="row d-flex ">
+        <div class="col-md-8">
+            <div class="headings d-flex justify-content-between align-items-center mb-3">
+                <h5>Commentaires</h5>
+            </div>
+            <div class="card p-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <img src="https://i.imgur.com/hczKIze.jpg" width="30" class="user-img rounded-circle mr-2">
+                       <small class="font-weight-bold text-primary">Bob_Sinclar</small> 
+                    </div> 
+                    <small>/03/2007 - 10:32</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                  <div class="reply px-4"> <small>Je ramene mes Platines</small> </div>
+                  <div class="icons align-items-center"> 
+                    <i class="fa fa-star text-secondary"></i> 
+                  </div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <img src="https://i.imgur.com/C4egmYM.jpg" width="30" class="user-img rounded-circle mr-2"> 
+                      <small class="font-weight-bold text-primary">YODA</small>
+                    </div> 
+                    <small>01/09/2020 - 10:55</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                  <div class="reply px-4"> <small>La GROSSETEUF je ferai</small> </div>
+                  <div class="icons align-items-center"> <i class="fa fa-check-circle-o check-icon text-primary"></i> </div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <img src="https://i.imgur.com/0LKZQYM.jpg" width="30" class="user-img rounded-circle mr-2"> 
+                      <small class="font-weight-bold text-primary">Manuel Valls</small> 
+                    </div> 
+                      <small>18/03/2020 - 17:00</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Quand Meme!
+                    </small> </div>
+                    <div class="icons align-items-center"> <i class="fa fa-user-plus text-muted"></i> <i class="fa fa-star-o text-muted"></i> <i class="fa fa-check-circle-o check-icon text-primary"></i> </div>
+                </div>
+            </div>
+            
+                </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<br>
+<br>
+<div class="col-md-12">
+  <h1>7 Resources</h1>
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8"><img src="asset/ class="img-thumbnail" alt=""></div>
+
+      <div class="col-md-4">
+        <div class="card-body">
+          <p class="card-text">27-05-2021</p>
+          <br />
+          <h4 class="card-title justify-content-center">
+            Un évènement hors-norme
+          </h4>
+          <h6>Par @user.mail</h6>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+      <div class="col-md-8">
+        <button class="btn"><i class="far fa-heart fa-md"></i></button>
+        <button class="btn"><i class="far fa-share-square fa-md"></i></button>
+      </div>
+      <div class="col-lg-4 text-center">
+        <a href="#" class="btn btn-secondary">participer</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <br />
+      <hr />
+      <div class="col-md-8 justify-content-center">
+        <br />
+        <h4>À propos de cet évènement</h4>
+        <p>Super évènement auquel il faut absolument participer</p>
+        <br />
+      </div>
+      <div class="col-md-4 text-center">
+        <br />
+        <h4>Informations</h4>
+        <h6>Date et heure</h6>
+        <h6>Adresse</h6>
+        <br />
+      </div>
+    </div>
+  </div>
+  <hr />
+  <br />
+</div>
+
+
+
+  <hr />
+<div class="col-md-12">
+  <h1>8 TEXT/IMAGE</h1>
+  <br />
+  <div class="container-fluid row justify-content-center">
+    <div class="col-md-5 justify-content">
+      <h5 class="h3">
+        TOI AUSSI TU VEUX FAIRE DES GROSSETEUFS , N HESITES PAS A LES CREER ET
+        LES PARTAGER ICI
+      </h5>
+      <p class="lead my-4">
+        Plus de confinement on va pouvoir tous faire des GROOOOOOOOSSSSSTEUFS.
+        Invite qui tu veux , payes en ligne et eclates toi !!!
+      </p>
+      <ul class="list-unstyled">
+        <li class="py-2">
+          <div class="d-flex align-items-center">
+            <div>
+              
+            </div>
+            <div>
+              <span class="h6 mb-0">payable en 10x sans frais</span>
+            </div>
+          </div>
+        </li>
+        <li class="py-2">
+          <div class="d-flex align-items-center">
+            <div>
+              
+            </div>
+            <div>
+              <span class="h6 mb-0">Comme si t allais vraiment lire ca</span>
+            </div>
+          </div>
+        </li>
+        <li class="py-2">
+          <div class="d-flex align-items-center">
+            <div>
+              
+            </div>
+            <div>
+              <span class="h6 mb-0">We do need a hero</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6 content justify-content-center">
+      <img src="asset/ class="img-fluid rounded" alt="">
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <br />
+    <div class="container-fluid row justify-content-center">
+      <div class="col-md-6 content justify-content-center">
+        <img src="asset/ class="img-fluid rounded" alt="">
+      </div>
+
+      <div class="col-md-5 justify-content: stretch">
+        <h5 class="h3">
+          TOI AUSSI TU VEUX FAIRE DES GROSSETEUFS , N HESITES PAS A LES CREER ET
+          LES PARTAGER ICI
+        </h5>
+        <p class="lead my-4 justify-content: stretch">
+          et puis si t as plus d amis , ici tu peux t en faire , tant que tu
+          payes , moi ca me regarde aprés...
+        </p>
+        <ul class="list-unstyled">
+          <li class="py-2">
+            <div class="d-flex align-items-center">
+              <div>
+               
+              </div>
+              <div>
+                <span class="h6 mb-0">Agenda du Turfu</span>
+              </div>
+            </div>
+          </li>
+          <li class="py-2">
+            <div class="d-flex align-items-center">
+              <div>
+                
+              </div>
+              <div>
+                <span class="h6 mb-0">Pour toutes les GROSSETEUFS</span>
+              </div>
+            </div>
+          </li>
+          <li class="py-2">
+            <div class="d-flex align-items-center">
+              <div>
+                
+              </div>
+              <div>
+                <span class="h6 mb-0">Payez en Deutchmarks </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
