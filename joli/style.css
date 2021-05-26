@@ -11942,11 +11942,11 @@ legend {
 }
 
 .jumbotron {
-  background-image: src= "asset/grossteuf/jpg";
+  background-image: url:"https://unsplash.com/photos/ZhQCZjr9fHo";
   background-size: 100%;
 }
 
 .jumbotron_2 {
-  background-image: src= "asset/grossteuf2.jpg";
+  background-image: url:"https://unsplash.com/photos/WiTisob-9dw";
   background-size: 100%;
 }
